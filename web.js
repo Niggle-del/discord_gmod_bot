@@ -18,13 +18,13 @@ const { error } = console;
 log('Constants: ');
 log("  DEBUG: ", DEBUG, `(${typeof DEBUG})`);
 log("  PORT: ", PORT, `(${typeof PORT})`);
-log("  DISCORD_GUILD: ", 604743244714344449, `(${typeof DISCORD_GUILD})`);
-log("  DISCORD_CHANNEL: ", 747940717304741938, `(${typeof DISCORD_CHANNEL})`);
-log("  DISCORD_TOKEN: ", NzQ3OTM0MzM0MzE2NDQ1NzUx.X0WGIQ.DJpTs17lIlnyodjPrUDwSk4pbV4, `(${typeof DISCORD_TOKEN})`);
+log("  DISCORD_GUILD: ", DISCORD_GUILD, `(${typeof DISCORD_GUILD})`);
+log("  DISCORD_CHANNEL: ", DISCORD_CHANNEL, `(${typeof DISCORD_CHANNEL})`);
+log("  DISCORD_TOKEN: ", DISCORD_TOKEN, `(${typeof DISCORD_TOKEN})`);
 log("  KEEPALIVE_HOST: ", KEEPALIVE_HOST, `(${typeof KEEPALIVE_HOST})`);
 log("  KEEPALIVE_PORT: ", KEEPALIVE_PORT, `(${typeof KEEPALIVE_PORT})`);
 log("  KEEPALIVE_ENABLED: ", KEEPALIVE_ENABLED, `(${typeof KEEPALIVE_ENABLED})`);
-log("  API_KEY: ", BE05687DA22EDEA153F51B576D106C0E, `(${typeof API_KEY})`);
+log("  API_KEY: ", API_KEY, `(${typeof API_KEY})`);
 
 
 let discordGuild;
